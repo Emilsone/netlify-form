@@ -1,4 +1,4 @@
-# newsletter-app
+# netlify-form
 
 ## Project setup
 ```

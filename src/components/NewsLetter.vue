@@ -5,7 +5,7 @@
         class="lg:w-2/3 md:w-1/2 bg-gray-100 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
         <img class="object-cover object-center rounded" alt="hero" src="../assets/contact-image.png">
       </div>
-      <div class="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
+      <form name="simpleContactForm" method="POST" data-netlify="true"  class="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
         <h2 class="text-gray-900 text-2xl mb-1 font-bold title-font">Send us a Message now</h2>
         <p class="leading-relaxed mb-5 text-gray-600 text-md">You are only a few steps away from obtaining the information
           you
@@ -32,7 +32,7 @@
           <p class="text-lg text-gray-500 px-2 ">You agree to the terms and condition.</p>
 
         </div>
-      </div>
+      </form>
     </div>
   </section>
 </template>

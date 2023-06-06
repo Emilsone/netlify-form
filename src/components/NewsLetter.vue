@@ -7,7 +7,7 @@
         <img class="object-cover object-center rounded" alt="hero" src="../assets/contact-image.png">
       </div>
       <div class="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
-        <form name="contact" netlify method="POST" data-netlify="true">
+        <!-- <form name="contact" netlify method="POST" data-netlify="true">
           <input type="hidden" name="form-name" value="contact" />
           <h2 class="text-gray-900 text-2xl mb-1 font-bold title-font">Send us a Message now</h2>
           <p class="leading-relaxed mb-5 text-gray-600 text-md">You are only a few steps away from obtaining the
@@ -38,6 +38,23 @@
           </div>
           <button class="text-white border-0 py-2 px-6 focus:outline-none rounded text-lg mt-6 btn-sign">Contact Us</button>
 
+        </form> -->
+        <form name="contact" netlify method="POST" data-netlify="true">
+          <p>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" />
+          </p>
+          <p>
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" />
+          </p>
+          <p>
+            <label for="message">Message</label>
+            <textarea id="message" name="message"></textarea>
+          </p>
+          <p>
+            <button type="submit">Send</button>
+          </p>
         </form>
       </div>
 

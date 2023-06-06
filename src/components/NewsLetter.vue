@@ -8,7 +8,7 @@
       </div>
       <div class="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
         <form name="contact" method="POST" netlify>
-          <!-- <input type="hidden" name="form-name" value="contact" /> -->
+          <input type="hidden" name="form-name" value="contact" />
           <h2 class="text-gray-900 text-2xl mb-1 font-bold title-font">Send us a Message now</h2>
           <p class="leading-relaxed mb-5 text-gray-600 text-md">You are only a few steps away from obtaining the
             information

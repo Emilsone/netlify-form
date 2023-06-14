@@ -69,7 +69,7 @@ export default {
 				headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
 				body: this.encode({ 'form-name': 'contact', ...this.form }),
 			})
-				.then(() => alert('Success!'))
+				.then(() => console.log('You have sucessfully submitted the form'))
 				.catch(error => alert(error));
 		},
 	},

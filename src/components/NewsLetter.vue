@@ -35,7 +35,7 @@
 					</div>
 					<button
 						class="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
-						type="submit" @click.prevent="handleSubmit">Send</button>
+						type="submit" @click.prevent="formSubmit">Send</button>
 
 				</form>
 			</div>
@@ -63,7 +63,7 @@ export default {
 				)
 				.join('&');
 		},
-		handleSubmit() {
+		formSubmit() {
 			fetch('/', {
 				method: 'POST',
 				headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
@@ -83,5 +83,6 @@ export default {
 
 .btn-bg {
 	background-color: #1D1D1D;
-}</style>
+}
+</style>
 

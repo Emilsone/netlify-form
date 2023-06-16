@@ -13,7 +13,7 @@
 					you
 					require. However, if you send the message now, our team will contact you right away</p>
 
-				<form name="contact" method="POST" onSubmit="window.location.reload();" netlify>
+				<form autocomplete="off" name="contact" method="POST" onSubmit="window.location.reload();" netlify>
 					<p><input type="hidden" name="form-name" value="contact"></p>
 					<div class="relative mb-4">
 						<label for="name" class="leading-7 text-sm text-gray-600">Name</label>
